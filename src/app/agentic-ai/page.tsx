@@ -17,7 +17,7 @@ const principles = [
   {
     title: '1. Ground every step, not just the final answer',
     body:
-      'It\'s tempting to only fact-check the final output an agent produces. That\'s not enough. Every intermediate step — every retrieval, every calculation, every sub-conclusion — needs to be traceable back to a source. If an agent can\'t show its work at each hop, you don\'t actually have a reliable system; you have a black box that happens to sound confident.',
+      "It's tempting to only fact-check the final output an agent produces. That's not enough. Every intermediate step — every retrieval, every calculation, every sub-conclusion — needs to be traceable back to a source. If an agent can't show its work at each hop, you don't actually have a reliable system; you have a black box that happens to sound confident.",
   },
   {
     title: '2. Keep humans in the loop at the right altitude',
