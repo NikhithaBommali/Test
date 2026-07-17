@@ -9,6 +9,7 @@ import logo from '../../public/yc_logo.png';
 import img from '../../public/645.png';
 import atl from '../../public/atl.png';
 import qlarant from '../../public/qlarant.png';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -22,16 +23,19 @@ export default function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center bg-[#151718] cursor-default">
-
-      <header className="sticky top-0 z-20 w-full border-b border-white/10 bg-[#151718]/95 backdrop-blur">
-        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8 text-white">
-          <span className="font-pockota text-[18px] sm:text-[20px]">Tulasee Rao Chintha</span>
-          <nav className="flex items-center gap-5 text-[14px] font-inter">
-            <Link href="/" className="transition hover:text-[#BEF6A9]">Home</Link>
-            <Link href="/agentic-ai" className="transition hover:text-[#BEF6A9]">Agentic AI</Link>
+      <div className="w-full border-b border-white/10 bg-black/90 px-4 py-3 text-white">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
+          <div className="text-[11px] uppercase tracking-[0.28em] text-white/70">Tulasee Rao Chintha</div>
+          <nav className="flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-white/70">
+            <Link href="/" className="transition hover:text-white">
+              Home
+            </Link>
+            <Link href="/agentic-ai" className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-white transition hover:bg-white/10">
+              Agentic AI
+            </Link>
           </nav>
         </div>
-      </header>
+      </div>
 
       <div className="flex flex-col w-full items-center justify-center text-white p-[55px] sm:p-[75px]"
         style={{
