@@ -1,0 +1,8 @@
+{
+  "frontend": {
+    "type": "nextjs",
+    "appRouter": true,
+    "frameworkVersion": "14.1.3"
+  },
+  "framework": "nextjs-app-router"
+}
