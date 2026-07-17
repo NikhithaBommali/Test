@@ -1,0 +1,10 @@
+{
+  "frontend": {
+    "target": "nextjs-frontend",
+    "port": 3000
+  },
+  "backend": {
+    "target": "nextjs-backend",
+    "port": 3000
+  }
+}
