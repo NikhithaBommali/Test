@@ -6,12 +6,7 @@ const navItems = [
   { label: 'Agentic AI', href: '/agentic-ai' },
 ];
 
-const keyPoints = [
-  'Goal persistence',
-  'Tool use',
-  'Self-correction',
-  'Orchestration',
-];
+const keyPoints = ['Goal persistence', 'Tool use', 'Self-correction', 'Orchestration'];
 
 const principles = [
   {
@@ -103,11 +98,7 @@ export default function AgenticAIPage() {
       </section>
 
       <section id="what-agentic-actually-means" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-        <SectionHeading
-          eyebrow="The Shift Nobody Saw Coming (Except Those Building It)"
-          title="What \"Agentic\" Actually Means"
-          description="The word gets thrown around loosely, so it&apos;s worth being precise. An agentic system typically has four properties that a simple chatbot lacks."
-        />
+        <SectionHeading eyebrow="The Shift Nobody Saw Coming (Except Those Building It)" title='What "Agentic" Actually Means' description="The word gets thrown around loosely, so it&apos;s worth being precise. An agentic system typically has four properties that a simple chatbot lacks." />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {keyPoints.map((point, index) => (
             <article key={point} className="rounded-3xl border border-black/5 bg-white p-6 shadow-[0_12px_40px_rgba(31,23,20,0.06)]">
@@ -149,11 +140,7 @@ export default function AgenticAIPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-        <SectionHeading
-          eyebrow="Three Design Principles That Actually Matter"
-          title="The infrastructure question nobody talks about enough"
-          description="After building and iterating on AI systems that process tens of millions of medical documents, a few principles have proven non-negotiable."
-        />
+        <SectionHeading eyebrow="Three Design Principles That Actually Matter" title="The infrastructure question nobody talks about enough" description="After building and iterating on AI systems that process tens of millions of medical documents, a few principles have proven non-negotiable." />
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {principles.map((principle) => (
             <article key={principle.title} className="rounded-[2rem] border border-black/5 bg-white p-7 shadow-[0_12px_40px_rgba(31,23,20,0.06)]">
