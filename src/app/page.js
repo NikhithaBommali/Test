@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect } from "react";
+import Link from "next/link";
 import CaseStudies from "./components/CaseStudies";
 import Image from 'next/image';
 import AOS from "aos";
