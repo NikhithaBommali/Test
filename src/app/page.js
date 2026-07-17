@@ -23,6 +23,16 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center bg-[#151718] cursor-default">
 
+      <header className="sticky top-0 z-20 w-full border-b border-white/10 bg-[#151718]/95 backdrop-blur">
+        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8 text-white">
+          <span className="font-pockota text-[18px] sm:text-[20px]">Tulasee Rao Chintha</span>
+          <nav className="flex items-center gap-5 text-[14px] font-inter">
+            <Link href="/" className="transition hover:text-[#BEF6A9]">Home</Link>
+            <Link href="/agentic-ai" className="transition hover:text-[#BEF6A9]">Agentic AI</Link>
+          </nav>
+        </div>
+      </header>
+
       <div className="flex flex-col w-full items-center justify-center text-white p-[55px] sm:p-[75px]"
         style={{
           backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg_img.png')"
